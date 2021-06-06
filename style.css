@@ -1,0 +1,45 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+  background-position-y: 10%;
+  color: white;
+}
+
+canvas {
+  margin-top: -15%;
+  border-radius: 5px;
+  background-color: turquoise;
+}
+
+.header {
+  width: 100%;
+}
+
+.feed {
+  background: rgb(255,0,0);
+  background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(255,72,0,1) 25%, rgba(255,128,0,1) 50%, rgba(244,147,0,1) 75%, rgba(255,196,0,1) 100%);
+  border: 2px double black;
+  border-radius: 35px;
+}
+
+.header, .status, .objects, .submit, .footage {
+  background: rgb(139,251,63);
+  background: linear-gradient(180deg, rgba(139,251,63,1) 0%, rgba(51,252,77,1) 25%, rgba(44,252,159,1) 50%, rgba(37,253,222,1) 75%, rgba(0,159,255,1) 100%);
+  border: 2px double black;
+  border-radius: 5px;
+}
+
+.copyright-footer {
+  bottom: 0;
+  margin: 0;
+  position: fixed;
+  width: 100%;
+  background: rgb(139,251,63);
+  background: linear-gradient(180deg, rgba(139,251,63,1) 0%, rgba(51,252,77,1) 25%, rgba(44,252,159,1) 50%, rgba(37,253,222,1) 75%, rgba(0,159,255,1) 100%);
+}
